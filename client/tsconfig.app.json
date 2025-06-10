@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
+
+    "paths": {
+      "@imageAssets/*": ["./src/assets/images/*"],
+      "@assets/*": ["./src/assets/*"],
+      "@configs/*": ["./src/lib/configs/*"],
+      "@constants/*": ["./src/lib/constants/index.ts/*"],
+      "@featureComponents/*": ["./src/components/features/*"],
+      "@layoutComponents/*": ["./src/components/layout/*"],
+      "@providerComponents/*": ["./src/components/providers/*"],
+      "@uiComponents/*": ["./src/components/ui/*"],
+      "@wrapperComponents/*": ["./src/components/wrappers/*"],
+      "@components/*": ["./src/components/*"],
+      "@customTypes/*": ["./src/lib/types/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@routes": ["./src/lib/configs/routes.tsx"],
+      "@reduxService/*": ["./src/services/redux/*"],
+      "@socketService/*": ["./src/services/socket/*"],
+      "@services/*": ["./src/services/*"],
+      "@utils/*": ["./src/lib/utils/*"],
+    },
+  },
+  "include": ["src"]
+}
+
