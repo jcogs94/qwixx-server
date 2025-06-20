@@ -18,6 +18,7 @@ const io = new Server(server, {
 })
 
 export const appState = new AppState(io)
+appState.initializeHandlers()
 
 // middleware
 app.use(express.json())

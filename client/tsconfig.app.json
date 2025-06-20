@@ -26,7 +26,7 @@
       "@imageAssets/*": ["./src/assets/images/*"],
       "@assets/*": ["./src/assets/*"],
       "@configs/*": ["./src/lib/configs/*"],
-      "@constants/*": ["./src/lib/constants/index.ts/*"],
+      "@constants/*": ["./src/lib/constants/*"],
       "@featureComponents/*": ["./src/components/features/*"],
       "@layoutComponents/*": ["./src/components/layout/*"],
       "@providerComponents/*": ["./src/components/providers/*"],
