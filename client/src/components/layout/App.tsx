@@ -4,7 +4,7 @@ const App = () => {
   useSetFaviconOnPageLoad()
   
   return <>
-    <h1>Qwixx</h1>
+    <h1 className="text-3xl font-bold underline">Qwixx</h1>
   </>
 }
 
